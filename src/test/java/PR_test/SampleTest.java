@@ -27,7 +27,7 @@ public class SampleTest {
     @Test
     public void testString() {
         String message = "Hello, World!";
-        Assert.assertEquals(message, "Hello, Anil!", "String test failed");
+        Assert.assertEquals(message, "Hello, Anilkumar!", "String test failed");
         System.out.println("String test passed");
     }
 
