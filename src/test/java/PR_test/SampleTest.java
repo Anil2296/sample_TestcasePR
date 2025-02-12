@@ -19,7 +19,7 @@ public class SampleTest {
     @Test
     public void testAddition() {
         int sum = 2 + 3;
-        Assert.assertEquals(sum, 5, "Addition test failed");
+        Assert.assertEquals(sum, 6, "Addition test failed");
         System.out.println("Addition test passed");
 //hi
     }
