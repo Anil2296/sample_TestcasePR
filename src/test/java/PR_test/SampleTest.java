@@ -21,6 +21,7 @@ public class SampleTest {
         int sum = 2 + 3;
         Assert.assertEquals(sum, 5, "Addition test failed");
         System.out.println("Addition test passed");
+//hi
     }
 
     // Sample test case 2
