@@ -3,7 +3,7 @@ name: Run Tests on PR
 on:
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   test:
@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '17'
-          distribution: 'zulu'
+          # //distribution: 'zulu'
 
       - name: Run Maven test
         run: mvn test
