@@ -19,8 +19,9 @@ public class SampleTest {
     @Test
     public void testAddition() {
         int sum = 2 + 3;
-        Assert.assertEquals(sum, 5, "Addition test failed");
+        Assert.assertEquals(sum, 6, "Addition test failed");
         System.out.println("Addition test passed");
+//hi
     }
 
     // Sample test case 2
@@ -30,6 +31,7 @@ public class SampleTest {
         Assert.assertEquals(message, "Hello, World!", "String test failed");
         System.out.println("String test passed");
     }
+    // new pr
 
     // This will be run after the tests in this class
     @AfterClass
